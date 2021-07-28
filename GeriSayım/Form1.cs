@@ -24,7 +24,7 @@ namespace GeriSayım
             {
                 label2.Text = "BİTTİ";
 
-                label1.Text = "00:00:00";
+               
                 timer1.Stop();
 
             }
@@ -39,7 +39,7 @@ namespace GeriSayım
                 {
                     label2.Text = "BİTTİ";
                     
-                    label1.Text = "00:00:00";
+                    
                     timer1.Stop();
                     
                 }
@@ -52,7 +52,7 @@ namespace GeriSayım
                         label2.Text = "BİTTİ";
                        
 
-                        label1.Text = "00:00:00"; 
+                         
                         timer1.Stop();
                        
                     }
@@ -64,11 +64,11 @@ namespace GeriSayım
                         {
                             label2.Text = "BİTTİ";
                             
-                            label1.Text = "00:00:00";
+                        
                             timer1.Stop();
                             
                         }
-                        label1.Text = "00:00:00";
+                        
 
                     }
                     dakika = 60;
@@ -104,7 +104,7 @@ namespace GeriSayım
 
         private void button1_Click(object sender, EventArgs e)
         {
-           // if (comboBox1.Text != "" && comboBox2.Text != "" && comboBox3.Text != "")
+           
             
 
                 saat = Convert.ToInt32(comboBox1.Text);
