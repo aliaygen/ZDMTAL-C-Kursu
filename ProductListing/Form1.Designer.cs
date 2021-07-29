@@ -39,6 +39,11 @@
             this.button3 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.listBox3 = new System.Windows.Forms.ListBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.listBox4 = new System.Windows.Forms.ListBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -149,12 +154,65 @@
             this.listBox3.Size = new System.Drawing.Size(57, 121);
             this.listBox3.TabIndex = 13;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(630, 9);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(10, 195);
+            this.label4.TabIndex = 14;
+            this.label4.Text = "|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|\r\n|";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(646, 14);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(43, 25);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "AD";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(651, 42);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(95, 20);
+            this.textBox3.TabIndex = 16;
+            // 
+            // listBox4
+            // 
+            this.listBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.listBox4.FormattingEnabled = true;
+            this.listBox4.HorizontalScrollbar = true;
+            this.listBox4.Location = new System.Drawing.Point(651, 71);
+            this.listBox4.Name = "listBox4";
+            this.listBox4.Size = new System.Drawing.Size(255, 121);
+            this.listBox4.TabIndex = 17;
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button4.Location = new System.Drawing.Point(752, 14);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(154, 48);
+            this.button4.TabIndex = 18;
+            this.button4.Text = "Yaz";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form1
             // 
             this.AcceptButton = this.button1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(635, 217);
+            this.ClientSize = new System.Drawing.Size(927, 217);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.listBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.listBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button3);
@@ -186,6 +244,11 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.ListBox listBox4;
+        private System.Windows.Forms.Button button4;
     }
 }
 

@@ -60,5 +60,18 @@ namespace ProductListing
                 listBox3.Items.Add(a.Substring(i, 1).ToString());
             }
         }
+
+        int q;
+        private void button4_Click(object sender, EventArgs e)
+        {
+            q = 0;
+            listBox4.Items.Clear();
+            string a = textBox3.Text;
+            for (int s = 0; s < a.Length; s++)
+            {
+                q++;
+                listBox4.Items.Add(a.Substring(0, q).ToString());
+            }
+        }
     }
 }
